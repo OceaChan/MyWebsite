@@ -1,8 +1,40 @@
-body {
-    background-color: rgb(54, 141, 170);
-  }
-  
   h1 {
     color: navy;
-    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: center;
   }
+  h4 {
+    color: white;
+  }
+
+
+body {
+    background-image: url(../images/Euphoric.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: url(../images/Euphoric.jpg), no-repeat, cover, center, fixed;
+    height: 200vh;
+  }
+
+  #second-paragraph { 
+    color: hotpink;
+    background-color: rgba(0, 3, 185, 0.205);
+  }  
+  p {color: red;
+    color: blueviolet;
+  }
+  .cat-info, .last-paragraph {
+    color: violet;
+  }
+  .duck {
+    color: rosybrown; 
+  }
+
+  /*A single line comment */
+
+/*This comment akes up 
+more space*/
