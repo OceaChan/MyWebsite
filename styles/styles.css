@@ -7,9 +7,11 @@
   }
   h4 {
     color: white;
+    font-size: 20px;
+    font-weight: 100;
   }
 
-
+/*Website body + images border*/
 body {
     background-image: url(../images/Euphoric.jpg);
     background-repeat:no-repeat;
@@ -19,22 +21,41 @@ body {
     background: url(../images/Euphoric.jpg), no-repeat, cover, center, fixed;
     height: 200vh;
   }
+  img {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border: 2px, solid, black;
+    border-top: 1px solid blue;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 10px 10px green;
+  }
 
+  /*changes nav*/
+  nav{
+    background-color: aliceblue;
+  }
+
+  /*Section based*/
   #second-paragraph { 
     color: hotpink;
-    background-color: rgba(0, 3, 185, 0.205);
+    background-color: rgba(0, 3, 185, 0.6);
   }  
   p {color: red;
     color: blueviolet;
   }
+  
   .cat-info, .last-paragraph {
     color: violet;
   }
-  .duck {
-    color: rosybrown; 
-  }
 
+  .duck {
+    color: rosybrown;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-stretch: condensed;
+  }    
   /*A single line comment */
 
-/*This comment akes up 
+/*This comment takes up 
 more space*/
